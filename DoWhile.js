@@ -7,10 +7,10 @@ do {
         case 1:
             numeroSolicitado = parseInt(prompt("Ingrese el número al que le va a calcular el factorial"));
             for (let i = 1; i <= numeroSolicitado; i++) {
-               factorial=factorial*i;
-                
+            factorial=factorial*i;
             }
             alert(factorial + " es el factorial de " +numeroSolicitado);
+            factorial=1;
             break;
         case 2:
             numeroSolicitado = parseInt(prompt("Ingrese el número que determinará si es par"));
